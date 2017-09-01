@@ -29,6 +29,7 @@ public:
 
     vector<string> nombre() const ;
 
+    Tabla busqueda(string nombre, bool igualdad, string campo, Dato dato);
 	
 	/** FALTA LA DE BUSQUEDA
 	 */
